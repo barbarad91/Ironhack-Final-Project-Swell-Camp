@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "start:server": "node server/bin/www"
+        "install:server": "cd server && npm i",
+        "start:server": "npm run install:server && node server/bin/www"
     }
 }
